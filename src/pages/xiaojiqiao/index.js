@@ -13,7 +13,7 @@ export default () => {
           <li>找到紧挨着上边俩视频中，靠下的哪一个（如下图）</li>
           <li>点击播放视频之后观看或者直接跳过就直接被祥云送到大雁塔顶端了</li>
         </ol>
-        <img src={imageDyt01} alt="" />
+        <img src={imageDyt01} alt="" style={{ maxWidth: "100%" }} />
 
         <Divider orientation="left">二、跑商路线</Divider>
         <ol>

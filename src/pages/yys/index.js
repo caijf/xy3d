@@ -11,6 +11,7 @@ export default () => {
         <img
           src="http://img.nga.178.com/attachments/mon_201905/28/eyQ5-6yzfK0T3cSsg-84.jpg.thumb.jpg"
           alt="微信小程序码"
+          style={{ maxWidth: "100%" }}
         />
 
         <ul>
