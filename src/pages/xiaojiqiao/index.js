@@ -23,6 +23,12 @@ export default () => {
         <p>
           平均5～7分钟一票。一般从大唐国境到长寿村就能完成。如果不行，就从长寿村到宝象国来回倒一次就可以（两地距离非常近）。
         </p>
+        <Divider orientation="left">三、洗宝宝</Divider>
+        <ol>
+          <li>洗到珍品或多技能的就留着，换另一只洗</li>
+          <li>珍品可以卖或合，多技能可以合</li>
+          <li>珍品多技能且资质还成的，可自用</li>
+        </ol>
       </Card>
     </PageHeaderWrapper>
   );
