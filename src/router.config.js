@@ -1,10 +1,9 @@
 import React from "react";
 import {
   FileDoneOutlined,
-  SubnodeOutlined,
+  FunctionOutlined,
   WechatOutlined,
-  CoffeeOutlined,
-  ToolOutlined
+  CoffeeOutlined
 } from "@ant-design/icons";
 
 // pages
@@ -13,10 +12,8 @@ import Exception404 from "~/pages/exception/404";
 import Exception500 from "~/pages/exception/500";
 
 import Tiku from "~/pages/tiku";
-import Yiwen from "~/pages/yiwen";
-import Shenhaixunbao from "~/pages/shenhaixunbao";
-import Shuxingshuoming from "~/pages/shuxingshuoming";
 import Xiaojiqiao from "~/pages/xiaojiqiao";
+import Strategies from "~/pages/strategies";
 import YYS from "~/pages/yys";
 
 // 这里为什么不使用 Layout，因为会有循环引用问题。比如 BasicLayout 依赖 menu，menu 依赖 routes，routes 依赖 BasicLayout
@@ -39,41 +36,16 @@ export default {
       component: Xiaojiqiao
     },
     {
+      path: "strategies",
+      name: "攻略合集",
+      icon: <FunctionOutlined />,
+      component: Strategies
+    },
+    {
       path: "yys",
       name: "痒痒鼠宝典",
       icon: <WechatOutlined />,
       component: YYS
-    },
-    {
-      path: "todo",
-      name: "整理中",
-      icon: <ToolOutlined />,
-      routes: [
-        {
-          path: "yiwen",
-          name: "逸闻",
-          icon: <SubnodeOutlined />,
-          component: Yiwen
-        },
-        {
-          path: "shenhaixunbao",
-          name: "深海寻宝",
-          icon: <SubnodeOutlined />,
-          component: Shenhaixunbao
-        },
-        {
-          path: "shuxingshuoming",
-          name: "属性说明",
-          icon: <SubnodeOutlined />,
-          component: Shuxingshuoming
-        },
-        {
-          path: "fuben",
-          name: "副本说明",
-          icon: <SubnodeOutlined />,
-          component: Shuxingshuoming
-        }
-      ]
     },
     {
       path: "exception",
