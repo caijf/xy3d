@@ -83,6 +83,14 @@ export default [
         title: "宝宝资质和成长哪个重要？换算成攻击是多少？",
         link:
           "https://baijiahao.baidu.com/s?id=1656237166264686653&wfr=spider&for=pc"
+      },
+      {
+        title: "梦幻三维神猪打书对比（高法波，高修灵，高吟法，高法连）",
+        link: "https://tieba.baidu.com/p/6495551171"
+      },
+      {
+        title: "平民法宠打书系列 平民法系宠的完美组合",
+        link: "https://tieba.baidu.com/p/6680023653"
       }
     ]
   }
