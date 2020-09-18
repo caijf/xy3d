@@ -3,7 +3,8 @@ import {
   FileDoneOutlined,
   FunctionOutlined,
   WechatOutlined,
-  CoffeeOutlined
+  CoffeeOutlined,
+  OrderedListOutlined
 } from "@ant-design/icons";
 
 // pages
@@ -12,6 +13,7 @@ import Exception404 from "~/pages/exception/404";
 import Exception500 from "~/pages/exception/500";
 
 import Tiku from "~/pages/tiku";
+import YinCang from "~/pages/YinCang";
 import Xiaojiqiao from "~/pages/xiaojiqiao";
 import Strategies from "~/pages/strategies";
 import YYS from "~/pages/yys";
@@ -34,6 +36,12 @@ export default {
       name: "小技巧",
       icon: <CoffeeOutlined />,
       component: Xiaojiqiao
+    },
+    {
+      path: "yincang",
+      name: "隐藏任务",
+      icon: <OrderedListOutlined />,
+      component: YinCang
     },
     {
       path: "strategies",

@@ -62,16 +62,6 @@ export default [
     ],
     extra: ""
   },
-  // {
-  //   name: "活动",
-  //   content: [
-  //     {
-  //       title: "",
-  //       link: ""
-  //     }
-  //   ],
-  //   extra: ""
-  // },
   {
     name: "其他",
     content: [
@@ -91,6 +81,10 @@ export default [
       {
         title: "平民法宠打书系列 平民法系宠的完美组合",
         link: "https://tieba.baidu.com/p/6680023653"
+      },
+      {
+        title: "桃源村之恋",
+        link: "https://ds.163.com/feed/5e5888d566636f65734c47cd/"
       }
     ]
   }
