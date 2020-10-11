@@ -82,6 +82,40 @@ export default [
     ]
   },
   {
+    name: "门派",
+    content: [
+      {
+        title: "从零开始系列超详尽化生寺门派攻略",
+        link: "https://ds.163.com/feed/5f6defcc4ebd8e097bd012fa/"
+      },
+      {
+        title: "从零开始系列—超详尽大唐官府门派攻略",
+        link: "https://ds.163.com/feed/5f64e14c4ebd8e676b4aaeb7/"
+      },
+      {
+        title: "医生职业加血技能使用详解",
+        link: "https://ds.163.com/feed/5f6048eb7c87224ee7c20329/"
+      },
+      {
+        title: "从零开始系列---超详尽方寸山门派攻略",
+        link: "https://ds.163.com/feed/5f620d537c87226b92eb12c1/"
+      },
+      {
+        title: "梦幻西游三维版各门派减伤技能详解（上）",
+        link: "https://ds.163.com/feed/5f58c1dd4ebd8e240a730893/"
+      },
+      {
+        title: "梦幻西游三维版各门派减伤技能详解（中）",
+        link: "https://ds.163.com/feed/5f59fc4312b80d3526e64ba7/"
+      },
+      {
+        title: "梦幻西游三维版各门派减伤技能详解（下）续",
+        link: "https://ds.163.com/feed/5f620bc312b80d75698169f6/"
+      }
+    ],
+    extra: ""
+  },
+  {
     name: "副本",
     content: [
       {
@@ -109,6 +143,10 @@ export default [
       {
         title: "单化生之心月狐",
         link: "https://ds.163.com/feed/5f133b12f7feba6b2b7669bb/"
+      },
+      {
+        title: "手把手教你站撸心月狐",
+        link: "https://ds.163.com/feed/5f71955c73b05107911322c5/"
       }
     ],
     extra: ""
