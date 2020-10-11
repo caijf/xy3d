@@ -85,6 +85,14 @@ export default [
     name: "门派",
     content: [
       {
+        title: "普陀用什么法宝？",
+        link: "https://ds.163.com/feed/5e9a77fb7c87221d0427156f/"
+      },
+      {
+        title: "普陀技能应用场景讲解及使用技巧",
+        link: "https://ds.163.com/article/5e97fc954ebd8e4747cad5ca/"
+      },
+      {
         title: "从零开始系列超详尽化生寺门派攻略",
         link: "https://ds.163.com/feed/5f6defcc4ebd8e097bd012fa/"
       },
@@ -99,6 +107,10 @@ export default [
       {
         title: "从零开始系列---超详尽方寸山门派攻略",
         link: "https://ds.163.com/feed/5f620d537c87226b92eb12c1/"
+      },
+      {
+        title: "三界辅助哪家强，普陀花生抢称王！",
+        link: "https://ds.163.com/article/5f598ba3f7feba254fd50739/"
       },
       {
         title: "梦幻西游三维版各门派减伤技能详解（上）",
@@ -121,6 +133,10 @@ export default [
       {
         title: "梦幻三维版-绝境侠士副本通关视频",
         link: "https://www.bilibili.com/video/BV1Ft4y1D7jx"
+      },
+      {
+        title: "【螃蟹出品】地下魔祸十人本攻略",
+        link: "https://ds.163.com/feed/5f6ecc8666636f21dbbd7409/"
       }
     ],
     extra: ""
@@ -157,6 +173,10 @@ export default [
       {
         title: "人物加点推荐&属性解析",
         link: "https://ds.163.com/article/5df6e5ee517f0f3b588bef82/"
+      },
+      {
+        title: "三维装备特技选择",
+        link: "https://ds.163.com/feed/5f7fcfdd517f0f5f9ec5c84c/"
       },
       {
         title: "宝宝资质和成长哪个重要？换算成攻击是多少？",
