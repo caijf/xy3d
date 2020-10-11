@@ -39,7 +39,7 @@ export default {
     },
     {
       path: "yincang",
-      name: "隐藏任务",
+      name: "每日人气任务",
       icon: <OrderedListOutlined />,
       component: YinCang
     },

@@ -1,7 +1,9 @@
 import React from "react";
-import { Divider, Card } from "antd";
+import { Divider, Card, Collapse } from "antd";
 import PageHeaderWrapper from "~/components/PageHeaderWrapper";
 import data from "./data";
+
+const { Panel } = Collapse;
 
 export default () => {
   return (
@@ -21,7 +23,13 @@ export default () => {
                 ))}
               </ul>
             )}
-            {item.extra}
+            {item.extra && (
+              <Collapse>
+                <Panel header={`查看${item.name}补充`} key="1">
+                  {item.extra}
+                </Panel>
+              </Collapse>
+            )}
           </div>
         ))}
       </Card>

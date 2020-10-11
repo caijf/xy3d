@@ -1,4 +1,7 @@
 import React from "react";
+import yw01 from "~/assets/images/149.328.jpg";
+import yw02 from "~/assets/images/-6.348.jpg";
+import yw03 from "~/assets/images/177.96.jpg";
 
 export default [
   {
@@ -15,7 +18,7 @@ export default [
     ],
     extra: (
       <div style={{ color: "gray" }}>
-        <h4>补充【取经归来】以物易物：</h4>
+        <h4>【取经归来】以物易物：</h4>
         <ol>
           <li>
             稻草—水果店（樱桃）—药店（老参/麻沸散）—茶馆（龙井）—宝石店（宝石）
@@ -27,8 +30,56 @@ export default [
             稻草—小吃店（白玉羹）—药店（老参）—茶馆（老茶）—宝石店（宝石）
           </li>
         </ol>
+        <h4>【天外飞仙】寻作画之处：</h4>
+        <ol>
+          <li>
+            <p>149.328</p>
+            <img src={yw01} alt="" style={{ maxWidth: "100%" }} />
+          </li>
+          <li>
+            <p>-6.348</p>
+            <img src={yw02} alt="" style={{ maxWidth: "100%" }} />
+          </li>
+          <li>
+            <p>177.96</p>
+            <img src={yw03} alt="" style={{ maxWidth: "100%" }} />
+          </li>
+        </ol>
       </div>
     )
+  },
+  {
+    name: "帮战",
+    content: [
+      {
+        title: "帮战怎么打（入门篇）",
+        link: "https://ds.163.com/article/5e3309c14ebd8e315b2b4d24/"
+      },
+      {
+        title: "帮战怎么打（进阶篇）",
+        link: "https://ds.163.com/article/5e3445b666636f4dd2ebc883/"
+      },
+      {
+        title: "帮战怎么打（法宝篇）",
+        link: "https://ds.163.com/article/5e34548d517f0f70a258a265/"
+      },
+      {
+        title: "帮战怎么打（队伍篇）",
+        link: "https://ds.163.com/article/5e3af4a366636f4dd2f5ffa1/"
+      },
+      {
+        title: "帮战怎么打（管理篇）",
+        link: "https://ds.163.com/article/5e3d991973b051646dc8ebbf/"
+      },
+      {
+        title: "帮战怎么打（改版要点）",
+        link: "https://ds.163.com/article/5e51237c66636f20362a74de/"
+      },
+      {
+        title: "帮战怎么打（开局战术篇）",
+        link: "https://ds.163.com/article/5e83652c66636f6c124e23e0/"
+      }
+    ]
   },
   {
     name: "副本",
