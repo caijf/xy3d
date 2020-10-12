@@ -14,6 +14,10 @@ export default [
       {
         title: "逸闻生辰之礼攻略及相关成就 拍照100%满分攻略",
         link: "https://ds.163.com/feed/5f5764607c872272c3cdf735/"
+      },
+      {
+        title: "【逸闻-天外飞仙】三个画卷的五分坐标",
+        link: "https://ds.163.com/feed/5e477720f7feba434dd045ca/"
       }
     ],
     extra: (
@@ -31,17 +35,18 @@ export default [
           </li>
         </ol>
         <h4>【天外飞仙】寻作画之处：</h4>
+        <p>调整好角度，视角拉到最大。</p>
         <ol>
           <li>
-            <p>149.328</p>
+            <p>147.332 或 149.328</p>
             <img src={yw01} alt="" style={{ maxWidth: "100%" }} />
           </li>
           <li>
-            <p>-6.348</p>
+            <p>-3.349 或 -6.348</p>
             <img src={yw02} alt="" style={{ maxWidth: "100%" }} />
           </li>
           <li>
-            <p>177.96</p>
+            <p>174.95 或 177.96</p>
             <img src={yw03} alt="" style={{ maxWidth: "100%" }} />
           </li>
         </ol>
