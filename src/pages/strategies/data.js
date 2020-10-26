@@ -90,6 +90,14 @@ export default [
     name: "门派",
     content: [
       {
+        title: "普陀治疗技能详解（上）",
+        link: "https://ds.163.com/feed/5f8d86054ebd8e37fb31b40f/"
+      },
+      {
+        title: "普陀治疗技能详解（下）",
+        link: "https://ds.163.com/feed/5f8d884b8ec3323cfa907265/"
+      },
+      {
         title: "普陀用什么法宝？",
         link: "https://ds.163.com/feed/5e9a77fb7c87221d0427156f/"
       },
@@ -199,6 +207,14 @@ export default [
       {
         title: "桃源村之恋",
         link: "https://ds.163.com/feed/5e5888d566636f65734c47cd/"
+      },
+      {
+        title: "宠物技能书评分一览",
+        link: "https://ds.163.com/feed/5f9546c466636f4ec9b8741d/"
+      },
+      {
+        title: "装备找回和宝宝放生找回详解",
+        link: "https://ds.163.com/article/5f90e7a57c872278dafa5359/"
       }
     ]
   }
