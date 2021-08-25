@@ -9,7 +9,7 @@ export default () => {
         <p>阴阳师手游实用工具，目前已有20多个功能。</p>
 
         <img
-          src="http://img.nga.178.com/attachments/mon_201905/28/eyQ5-6yzfK0T3cSsg-84.jpg.thumb.jpg"
+          src="https://www.caijinfeng.com/temp/yys/static/share.jpg"
           alt="微信小程序码"
           style={{ maxWidth: "100%" }}
         />
